@@ -12,3 +12,4 @@ while amount_of_book_has_readed < book_counted:
     print(f'book {amount_of_book_has_readed} has readed')
 
 print(f'amount of book has readed is {amount_of_book_has_readed}')
+
