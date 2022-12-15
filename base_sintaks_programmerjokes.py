@@ -14,7 +14,8 @@ Semua sintaksis dasar bahasa pemrograman terdiri dari
 # Branching
 jumlah_botol_susu = 1
 jumlah_telor = 6
-print('\nBeli 1 botol susu, kalau nggak ada ya pulang aja. Kalau ada telor beli 6 butir telor, kalau nggak ada telor beli susu aja')
+print('\nBeli 1 botol susu, kalau nggak ada ya pulang aja. \n'
+      'Kalau ada telor beli 6 butir telor, kalau nggak ada telor beli susu aja')
 print(f'jumlah botol susu yang tersedia sebanyak: {jumlah_botol_susu}')
 print(f'jumlah butir telor yang tersedia sebanyak: {jumlah_telor}')
 print('')
@@ -35,3 +36,5 @@ if jumlah_botol_susu >= 1:
         print('beli 1 botol susu saja')
 else:
     print('pulang, tidak jadi beli susu & telur')
+
+# virtual environtment - . python-fundamental-new_venv/bin/activate
